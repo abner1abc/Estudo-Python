@@ -1,0 +1,8 @@
+a = 10
+b = 20
+
+maior = a
+if(b>maior):
+    maior = b
+
+print(f'O maior número é:{maior}')

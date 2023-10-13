@@ -1,0 +1,1 @@
+Implementar uma solução que verifique se um número é ímpar ou par.

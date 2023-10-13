@@ -1,0 +1,10 @@
+1.É atribuído o valor 23 à variável 'numero'.
+2.Em seguida, o código verifica se o resto da divisão de 'numero' por 2 é igual a zero usando a expressão 
+numero '% 2 == 0.'Isso é feito com o operador de módulo %, que calcula o resto da divisão. 
+Se o resto da divisão for zero, isso significa que o número é par, caso contrário, é ímpar.
+3.Se a condição 'numero % 2 == 0' for verdadeira (ou seja, se o número for par), a variável 
+'situacao' recebe a string 'O número é par'.
+Caso contrário, se a condição for falsa (ou seja, se o número for ímpar), a variável 'situacao'
+recebe a string 'O número é ímpar'.
+Por fim, o código imprime o valor da variável 'situacao', que conterá a mensagem correspondente, 
+seja 'O número é par' ou ' número é ímpar', dependendo do valor de 'numero'.

@@ -1,0 +1,6 @@
+Implementar uma solução que resolva a seguinte questão:
+-Calcular o valor de uma compra, sendo que o preço unitário é R$:10,00.
+
+-Se for feita uma compra de até 10 unidades, não há descontos.
+-Para compras entre 11 e 20 unidades é dado um desconto de 10%.
+-Acima de 20 unidades, é dado um desconto de 20%.
