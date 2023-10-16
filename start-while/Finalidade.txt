@@ -1,0 +1,3 @@
+Analisar um programa em que o usuário precisa digitar a palavra “sair” para que esse laço seja encerrado.
+Para que o exemplo seja executado corretamente, deve-se inserir, no campo Input do emulador, uma sequência de palavras, 
+uma por linha, sendo que a última tem de ser a palavra “sair”.
