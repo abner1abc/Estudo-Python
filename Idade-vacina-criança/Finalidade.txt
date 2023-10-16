@@ -1,0 +1,2 @@
+Deverá ser criado usando a estrutura de decisão elif, um programa no qual é escrito a idade de uma criança, 
+e o mesmo calcula quando e se a criança deve ser vacinada, referente a idade da mesma.
