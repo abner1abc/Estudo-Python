@@ -1,0 +1,8 @@
+A instrução break funciona da mesma maneira em C e em Python. Ela interrompe as repetições dos laços for e while. 
+Quando a execução do programa chega a uma instrução break, a repetição é encerrada e o fluxo do programa segue a partir 
+da primeira instrução seguinte ao laço.
+
+Para exemplificarmos o uso dessa instrução, vamos voltar ao primeiro exemplo do laço while, utilizando o laço infinito. 
+O laço será encerrado quando o usuário inserir a palavra ‘sair’.
+
+Caso haja vários laços aninhados, o break será relativo ao laço em que estiver inserido.
