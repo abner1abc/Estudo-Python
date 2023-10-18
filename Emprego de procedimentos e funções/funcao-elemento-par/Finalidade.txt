@@ -1,0 +1,1 @@
+Implementar uma solução que retorne a soma de todos os elementos pares de uma lista.
