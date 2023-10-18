@@ -1,0 +1,2 @@
+Implementar uma solução que retorne o menor elemento de uma lista.
+A ideia desta questão é realizar uma função ou mais para solucionar o problema.
