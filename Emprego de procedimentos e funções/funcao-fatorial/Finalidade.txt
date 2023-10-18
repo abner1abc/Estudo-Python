@@ -1,0 +1,25 @@
+Implementar uma solução que calcule o fatorial de um número.
+Lembrando que tem que ser necessariamente função.
+
+
+O valor fatorial de um número é o produto de todos os números inteiros positivos de 1 até o número em questão. 
+É denotado pelo símbolo "!" e é frequentemente lido como "n fatorial". Matematicamente, o valor fatorial de um número 
+n é representado da seguinte forma:
+
+n! = n × (n - 1) × (n - 2) × ... × 2 × 1
+
+Por exemplo, o valor fatorial de 5 (representado como 5!) é calculado da seguinte forma:
+
+5! = 5 × 4 × 3 × 2 × 1 = 120
+
+Em termos gerais:
+
+.0! é definido como igual a 1 por convenção.
+.O fatorial de um número negativo não é definido nos números inteiros.
+.O fatorial de 1 é igual a 1, porque 1! = 1.
+.O fatorial de 2 é igual a 2, porque 2! = 2 × 1 = 2.
+E assim por diante.
+
+O valor fatorial é usado em matemática e em várias áreas, incluindo estatística, combinações, permutações, 
+probabilidade, cálculo e muitos outros campos para calcular quantidades diferentes e resolver diversos tipos de 
+problemas. É uma operação fundamental em matemática que desempenha um papel importante em muitos cálculos e fórmulas.
