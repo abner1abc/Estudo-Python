@@ -1,0 +1,7 @@
+A instrução pass atua sobre a estrutura if, permitindo que ela seja escrita sem outras instruções a serem 
+executadas caso a condição seja verdadeira. Assim, podemos concentrar as instruções no caso em que a condição é falsa.
+
+Suponha que queiramos imprimir somente os números ímpares entre 1 e 10. Uma implementação possível está no código
+
+Claramente, seria possível reescrever a condição do if-else para que pudéssemos transformá-lo em um if simples, 
+sem else.
