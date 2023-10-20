@@ -1,1 +1,1 @@
-Arquivos de estudos com Python.
+Study files with Python.
