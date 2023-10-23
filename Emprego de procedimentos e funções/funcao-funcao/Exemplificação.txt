@@ -1,0 +1,5 @@
+Em Python, as sentenças de função def são executáveis. Isso implica que a função só pode ser chamada após a 
+execução da sentença def.
+
+A função func1() só pode ser chamada caso a variável escolha seja igual a 1. Ou seja, o usuário deverá inserir 1 
+quando for solicitado (na linha 1) para que a linha 9 possa ser executada sem que um erro seja gerado .

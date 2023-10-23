@@ -1,0 +1,8 @@
+Em Python, é possível estabelecer valores padrão para os parâmetros formais. O valor padrão é usado quando a 
+chamada da função ocorre sem nenhum parâmetro real.
+
+.Observe que, mesmo com a definição da linha 1 de dois parâmetros formais, a chamada da função na linha 9 
+ocorre apenas com um parâmetro real.
+
+.A palavra reservada return indica que a função retorna algum valor. Isso implica que o valor retornado seja 
+armazenado em uma variável do programa chamador (como ocorre na linha 8) ou utilizado como parâmetro para outra função.

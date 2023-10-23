@@ -1,0 +1,5 @@
+Na maioria das linguagens que não explicita a diferença entre ambos, as funções podem ser definidas sem retornar 
+qualquer valor, tendo um comportamento de procedimento. Esse é o caso de Python.
+
+As funções func1(x) e func2(x) não possuem qualquer retorno. Ou seja, elas são funções com comportamento de 
+procedimentos.
