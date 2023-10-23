@@ -3,3 +3,26 @@ qualquer valor, tendo um comportamento de procedimento. Esse é o caso de Python
 
 As funções func1(x) e func2(x) não possuem qualquer retorno. Ou seja, elas são funções com comportamento de 
 procedimentos.
+
+1.As linhas 1, 2 e 3 definem a função func1(x), que recebe o parâmetro x, mas tem uma variável local de nome x, 
+cujo valor atribuído é 10;
+
+2.Analogamente, a função func2(x) – definida nas linhas 6, 7 e 8 – recebe o parâmetro x e tem uma variável de 
+mesmo nome, mas com valor atribuído 20;
+
+3.O programa principal tem uma variável global de mesmo nome x, cujo valor atribuído é 0, na linha 11;
+
+4.Veja que as chamadas às funções func1(x) e func2(x) ocorrem nas linhas 12 e 13, quando a variável x global já 
+recebeu o valor 0. Porém, ao ser executada, cada uma dessas funções tem a própria variável local a quem todas as 
+referências internas são feitas.
+
+5.Mesmo com a variável global tendo valor nulo, cada variável local das funções func1(x) e func2(x) tem o próprio valor. 
+Não há alterações na variável global mesmo com as atribuições das linhas 2 e 7.
+
+Para alterar a variável global x, seria necessário explicitar, dentro de cada função, que o nome x é referente a ela. 
+Isso pode ser feito com a palavra reservada global. Além de explicitar a referência à variável global, 
+as funções func1(x) e func2(x) não recebem mais os parâmetros de mesmo nome, já que fazem referência à variável global.
+
+.Observando a execução do código funcao2, percebe-se que o print() do programa principal está na linha 16, 
+depois da chamada à função func2(x). Dessa forma, a variável global x, alterada na execução da func2(x), 
+fica com o valor 20 quando a execução volta ao programa principal.
