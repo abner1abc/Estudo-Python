@@ -1,0 +1,5 @@
+Para acessar um elemento diretamente, basta você escrever o nome da variável e o índice do elemento.
+
+O resultado será "Jake", pois é o terceiro valor da lista. Aqui cabe um aviso: ao usar listas, se você tentar acessar um índice fora dos 
+existentes na lista, seu programa causará um erro, pois você estaria tentando acessar um espaço de memória que não está alocado para 
+aquela variável.

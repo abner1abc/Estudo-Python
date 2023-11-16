@@ -1,0 +1,5 @@
+Quando um array é criado, ele contém valores de determinado tipo. Se você criar um array com números inteiros, ele será de tipo inteiro. 
+Da mesma forma, se você criar com strings, ele será automaticamente criado com strings. Você pode verificar o tipo de array com o comando 
+arr.dtype
+
+Quando você cria o array, pode assinalar um tipo específico usando o comando dtype.

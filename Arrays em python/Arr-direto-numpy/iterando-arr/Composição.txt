@@ -1,0 +1,9 @@
+Quando você precisa percorrer o array, pode usar o laço for para iterar sobre a lista, ou seja, caminhar pela lista elemento 
+a elemento sequencialmente.
+
+o primeiro código percorre e imprime cada elemento de um array.
+
+Você pode também utilizar a função enumerate() se precisar acessar um elemento por meio do seu índice. A função enumerate(array) 
+vai criar uma lista duplicada, onde o primeiro elemento contém o índice e o segundo elemento contém o valor guardado no array.]
+
+O segundo código imprimirá o valor de cada índice seguido do valor armazenado.

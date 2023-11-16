@@ -1,0 +1,3 @@
+Se você quiser saber o tamanho de uma lista em Python, pode usar o comando len()( que vem de length, ou comprimento em inglês).
+
+Esse código mostra como você pode acessar o tamanho de uma lista, no caso x terá o valor de 3, pois a lista tem 3 elementos.

@@ -1,0 +1,6 @@
+Como você pode manipular uma lista depois de criá-la? Que tipo de operações você pode querer fazer? As operações mais simples que podem ser 
+feitas em qualquer estrutura de dados, incluindo listas, são a adição de um elemento e a remoção de um elemento.
+
+Em Python, para remover um elemento conhecido de uma lista já existente, você pode usar o comando remove()
+
+Se, ao invés de remover um item por seu valor, você quiser remover pelo índice, poderá usar o comando pop()

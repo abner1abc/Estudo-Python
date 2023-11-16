@@ -1,0 +1,3 @@
+Para acessar um elemento da array, use o índice entre colchetes.
+
+Você pode também acessar os elementos contando de trás para frente, usando índices negativos. Por exemplo, arr[-1] terá o valor de 5.

@@ -1,0 +1,3 @@
+Para usar arrays em Python de forma direta, você precisa importar a biblioteca numpy e utilizar o elemento array.
+
+Nesse código, criamos um array contando os elementos de 1 a 5.

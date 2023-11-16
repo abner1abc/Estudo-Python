@@ -1,0 +1,5 @@
+Python não tem arrays de forma nativa, mas você pode utilizar o elemento list para substituí-las de forma muito simples.
+
+Para declarar um vetor com três nomes basta usar
+
+nomes = ["Abner", "Remaldo", "Jake"]

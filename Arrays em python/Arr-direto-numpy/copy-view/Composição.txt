@@ -1,0 +1,4 @@
+Ao usar o comando copy, você cria uma cópia do array. Qualquer alteração feita na cópia não afetará o valor do array original.
+
+Quando você usa o comando view, está usando outra variável para se referenciar ao mesmo array. Qualquer alteração feita em uma variável 
+alterará o valor do array original.
