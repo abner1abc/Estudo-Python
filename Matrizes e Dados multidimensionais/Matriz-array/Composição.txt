@@ -1,0 +1,7 @@
+Da mesma forma que no caso unidimensional, você pode preferir utilizar arrays diretamente para representar dados multidimensionais. 
+É importante ressaltar que, diferentemente das listas, o objeto array deve ser homogêneo, ou seja, deve conter elementos de mesmo tipo.
+
+Portanto, você deve ter um array de inteiros ou array de números de ponto flutuante (float). Desse modo, seu array pode ter muitas dimensões, 
+mas cada dimensão será de arrays de mesmo tamanho.
+
+Para ficar mais fácil entender, vamos começar declarando uma matriz usando array da biblioteca numpy.

@@ -1,0 +1,8 @@
+Você pode declarar uma matriz usando o comando np.array da biblioteca numpy, como anteriormente. 
+O importante é saber que cada elemento do array de nível mais alto terá o mesmo tamanho.
+
+A matriz1 foi corretamente declarada e salva como um array de arrays (uma matriz). Já a matriz2 foi incorretamente declarada, 
+pois o seu segundo elemento tem tamanho 1 ao invés de 2. Assim, ela foi salva como um array de listas. Experimente.
+
+Para acessar determinado elemento da matriz, você pode usar a variável seguida do índice entre colchetes. Por exemplo, matriz1[0] 
+é o vetor (1,2) já matriz1[1][1] é o elemento 4.

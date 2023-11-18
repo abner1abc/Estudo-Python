@@ -1,0 +1,12 @@
+import numpy as np
+matriz=np.array([[1,2],[3,4],[5,6]])
+minimo = matriz.min()
+maximo= matriz.max()
+soma=matriz.sum()
+media=matriz.mean()
+desvio=matriz.std()
+print("Minimo =", minimo)
+print("Maximo =", maximo)
+print("Soma =", soma)
+print("Media =", media)
+print("Desvio =", desvio)

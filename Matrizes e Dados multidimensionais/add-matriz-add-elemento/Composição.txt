@@ -1,0 +1,12 @@
+Para declarar uma matriz como lista, você deve usar a declaração unidimensional repetidas vezes.
+
+Essa matriz guarda os amigos em uma lista, na qual cada amigo tem seu nome, idade e signo anotados. 
+Repare que há um par de colchetes mais externo que contém todas as listas, e cada lista interna está separada pelo seu próprio par de 
+colchetes. Os elementos de cada lista são separados por vírgulas.
+
+Para inserir um elemento na lista de nível mais alto, basta usar o mesmo comando do array unidimensional append()
+
+Já para inserir um elemento no segundo nível de lista, você deve usar o colchete com o índice identificando qual elemento da lista de mais 
+alto nível será alterado. Por exemplo, se quiser adicionar a cidade natal de Ana, você deve usar o código a seguir:
+
+amigos[2].append(“Juazeiro”)

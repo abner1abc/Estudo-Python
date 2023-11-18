@@ -1,0 +1,13 @@
+A iteração sobre uma matriz é similar ao caso do vetor, mas a cada nível de aninhamento você pode realizar uma nova iteração. 
+Digamos que você queira apenas imprimir a lista linha a linha, com cada linha contendo os dados de cada amigo.
+
+Agora, para imprimir cada elemento em uma linha, você pode usar dois iteradores aninhados.
+
+Esse código funciona bem no nosso exemplo porque todo elemento de amigos é uma lista, mas as listas podem ter diversos tipos de elementos. 
+O que acontece com esse terceiro código se, na lista amigos, tiver um elemento que contém apenas um nome, como “Mário”?
+
+Se você testou o código, viu que o elemento “Mário” foi tratado indevidamente como uma lista. Para resolver esse problema, 
+você pode usar a função isinstance(x,list) que retorna verdadeiro se x for um objeto do tipo lista.
+
+Repare que o terceiro código só usa o iterador aninhado se o item de alto nível for uma lista, o que é checado usando-se a função 
+isinstance().

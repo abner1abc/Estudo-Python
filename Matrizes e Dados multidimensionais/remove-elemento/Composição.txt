@@ -1,0 +1,8 @@
+Para remover um elemento na lista de nível mais alto, você pode usar a função remove() direto na variável da lista.
+
+Já para remover um elemento de segundo nível da lista, você deve utilizar a variável com o índice selecionado entre colchetes.
+
+Você pode também remover um elemento por meio do seu índice, ao invés do seu valor, usando o comando pop().
+
+No terceiro exemplo temos o código que remove o primeiro elemento da lista de mais alto nível e depois remove o segundo elemento do 
+segundo elemento restante. Dessa forma, todo o conteúdo de “João“ será removido, e depois a idade de “Ana”

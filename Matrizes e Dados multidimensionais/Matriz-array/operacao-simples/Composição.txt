@@ -1,0 +1,8 @@
+Você pode realizar operações simples com matrizes que tenham o mesmo tamanho de forma direta, como soma e subtração.
+
+Esse código mostra soma e subtração de matrizes. Você pode usar outras funções simples para cálculo direto na matriz. 
+Como exemplos, há sum() que soma todos os elementos da matriz, max() que retorna o valor máximo, min() que retorna o valor mínimo. 
+As funções mean() e std() retornam a média e o desvio padrão, respectivamente. 
+
+Assim como no caso unidimensional, no caso multidimensional(matriz) você pode usar a função enumerate(matriz) 
+para separar os índices e valores da matriz.
