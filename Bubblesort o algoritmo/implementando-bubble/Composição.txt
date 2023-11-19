@@ -1,0 +1,11 @@
+A ideia do método Bubblesort é você iniciar com um array contendo a lista desordenada. Então, o algoritmo vai percorrer o array 
+fazendo trocas par a par entre dois elementos consecutivos, quando estiverem fora da ordem. Ao chegar ao final do array, 
+você recomeça do início, encerrando o algoritmo quando uma das passagens não realizar nenhuma troca (o que significa que o array 
+está ordenado).
+
+.Para implementar o algoritmo bubblesort, você precisa criar um array para guardar a entrada (que também será a saída).
+
+.Você precisará criar um laço de repetição que percorrerá o array e só terminará quando não acontecerem trocas, ou seja, 
+um laço com variável de controle para encerrar.
+
+.Você precisará criar um código para comparar dois números consecutivos e trocá-los, se necessário.
