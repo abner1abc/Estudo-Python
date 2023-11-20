@@ -15,4 +15,3 @@ def buscaLista(k, L, n):
 nomes =['Arthur', 'Joao', 'Maria', 'Ana']
 i = buscaLista ('Ana', nomes, len(nomes))
 print (i)
-
