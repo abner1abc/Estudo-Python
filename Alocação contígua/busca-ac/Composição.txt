@@ -1,0 +1,4 @@
+No caso de haver uma lista em alocação sequencial, você pode buscar determinado nó, por meio de sua chave, 
+simplesmente percorrendo a lista e procurando por essa chave.
+
+Em Python, a lista é um tipo nativo, e você pode buscar por determinado elemento com a função index() já pronta.
