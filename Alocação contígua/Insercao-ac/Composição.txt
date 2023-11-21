@@ -1,0 +1,4 @@
+A segunda operação básica em uma estrutura de dados é a inserção de um novo nó. No caso da lista sequencial não ordenada, 
+você deve colocar o novo nó após o último elemento da lista.
+
+A lista em Python já possui funções para inserir um nó ao seu final, chamada append().

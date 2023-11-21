@@ -1,0 +1,5 @@
+A terceira e última operação básica em uma estrutura de dados é a remoção de um nó. No caso da lista sequencial (ordenada ou não), 
+você deve buscar o nó a ser removido, e depois “puxar” os nós posteriores para preencher o vácuo deixado pelo nó retirado.
+
+A lista em Python possui duas funções prontas para remover elementos de uma lista. A função remove (nó k) remove um nó exatamente 
+igual a k, caso exista. A função pop(índice i) remove o nó que está na posição de índice i.
