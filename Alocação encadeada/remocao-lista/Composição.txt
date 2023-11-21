@@ -1,0 +1,2 @@
+A terceira e última operação básica em uma estrutura de dados é a remoção de um nó. No caso da lista encadeada, 
+você deve buscar o nó a ser removido, e depois basta fazer o nó anterior apontar para o nó posterior ao nó removido.

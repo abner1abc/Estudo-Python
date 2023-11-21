@@ -1,0 +1,12 @@
+Inserção em lista em alocação encadeada
+
+.Criar um nó a ser inserido, o que vai alocar seu espaço em memória.
+
+.Apontar o campo próximo desse novo nó para o nó seguinte, de onde irá inserir.
+
+.Apontar o campo próximo do nó anterior, aonde você vai inserir, para o novo nó.
+
+Primeiramente, vamos considerar o caso da lista não ordenada. Nesse caso, você pode inserir o novo nó ao final da lista.
+
+Caso você não tenha uma variável apontando para o final da lista, terá que percorrê-la toda até encontrar o último nó. 
+Ou seja, inserir ao final da lista só é eficiente se você tiver uma variável apontando para o final da lista. 

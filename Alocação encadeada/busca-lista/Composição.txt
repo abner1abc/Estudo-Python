@@ -1,0 +1,2 @@
+No caso de termos uma lista em alocação encadeada, você pode buscar determinado nó, por meio de sua chave, 
+simplesmente percorrendo a lista e procurando por essa chave.

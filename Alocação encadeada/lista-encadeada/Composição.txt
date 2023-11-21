@@ -1,0 +1,22 @@
+No caso da lista encadeada, quando você cria um nó para ser inserido nela, você já está alocando o espaço de memória que irá armazená-lo. 
+Portanto, não precisa se preocupar em alocar previamente espaços para sua lista. Sua única preocupação é que, conforme a lista vai crescendo, 
+o espaço em memória necessário para mantê-la aumenta a ponto de consumir o espaço disponível para seu programa.
+
+Além disso, o tratamento dos ponteiros, apontando para os próximos nós, deve ser feito sempre com cuidado, pois, 
+se você perder o apontamento para o próximo nó, todo o restante da lista estará perdido em endereços desconhecidos da memória.
+
+Para testar todas as funções aqui propostas, experimente testar o seguinte código:
+
+e0=No(0,'Joao')
+Lista=ListaEncadeada(e0)
+k0=Lista.busca(0)
+print(k0.valor)
+Lista.print()
+e1=No(1,'Maria')
+Lista.insereFinal(e1)
+Lista.print()
+e2=No(-1,'Ana')
+Lista.insereInicio(e2)
+Lista.print()
+e3=No(2,'Arthur')
+Lista.insereOrdenada(e3)
