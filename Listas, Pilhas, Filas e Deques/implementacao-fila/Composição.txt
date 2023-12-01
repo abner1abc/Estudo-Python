@@ -1,1 +1,7 @@
-...
+A fila pode ser implementada em alocação contígua ou encadeada, como as listas. De fato, a fila é uma lista especial na qual todos os nós 
+são inseridos ao final da lista, e todos os nós são removidos apenas no início da lista.
+
+Para uma alocação encadeada, você pode manter duas variáveis, uma para o início da fila, e outra para o final da fila. Se a fila estiver 
+vazia, ambas as variáveis apontarão para o valor nulo. Se houver apenas um elemento, ambas apontarão para esse elemento. Com mais elementos, 
+InícioFila apontará para o nó que pode ser removido, e FinalFila apontará para o último elemento a entrar, que apontará para o próximo 
+nó a ser inserido. O código a seguir representa a criação da classe e seu construtor.
