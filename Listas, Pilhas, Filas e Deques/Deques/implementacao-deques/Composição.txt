@@ -1,0 +1,11 @@
+A estrutura de dados deque é uma generalização da fila e da pilha, essencialmente permitindo que se adicione ou remova nós do início 
+ou do final da lista. Para evitar confusões, as operações são normalmente identificadas com qual lado da fila está sendo alterado. 
+A remoção de um nó do início pode ser chamada de pop_front, enquanto a remoção de um nó ao final pode ser chamada de pop_back.
+
+O módulo collections do Python já possui uma implementação de deque.
+
+Caso queira implementar seu próprio deque, ele pode ser implementado em alocação contígua ou encadeada, como as listas.
+
+Para uma alocação encadeada, você precisa manter um ponteiro para o início e para o final do deque. Se o deque estiver vazio, 
+ambos apontarão para o valor nulo. Usualmente, utilizamos um encadeamento duplo, que permite percorrer a lista em qualquer uma das 
+direções e a partir de qualquer uma das pontas.

@@ -1,0 +1,8 @@
+A remoção do deque pode ocorrer no início ou no final da estrutura. Quando ocorre no início, seu funcionamento é idêntico à remoção 
+da pilha, apenas ajustando-se os ponteiros de início e final do deque (no caso encadeado) ou as variáveis InicioDeque e 
+FinalDeque(no caso contíguo). Essa operação pode ser chamada popFront ou popLeft.
+
+Quando a remoção ocorre no final da estrutura, seu funcionamento pode ser chamado popBack ou popRight.
+
+Para o caso contíguo, você possui 4 variáveis: Deque guarda o espaço de memória, MaxDeque guarda o número máximo de elementos do deque, 
+InicioDeque e FinalDeque guardam o índice do início e final do deque.
