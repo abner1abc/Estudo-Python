@@ -1,0 +1,4 @@
+A remoção da fila (às vezes chamado de consumir um nó) deve ocorrer sempre no início da fila.
+
+Para o caso contíguo, você possui 4 variáveis: Fila guarda o espaço de memória, MaxFila guarda o número máximo de elementos na fila, 
+InicioFila e FinalFila guardam os índices de início e final da fila, respectivamente.

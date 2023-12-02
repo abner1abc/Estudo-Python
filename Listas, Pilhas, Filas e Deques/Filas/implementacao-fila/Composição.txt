@@ -5,3 +5,23 @@ Para uma alocação encadeada, você pode manter duas variáveis, uma para o in�
 vazia, ambas as variáveis apontarão para o valor nulo. Se houver apenas um elemento, ambas apontarão para esse elemento. Com mais elementos, 
 InícioFila apontará para o nó que pode ser removido, e FinalFila apontará para o último elemento a entrar, que apontará para o próximo 
 nó a ser inserido. O código a seguir representa a criação da classe e seu construtor.
+
+Código para teste da implementação : 
+
+e0=No(0,'Joao')
+fila=FilaEncadeada(e0)
+k0=fila.busca(0)
+print(k0.valor)
+fila.print()
+e1=No(1,'Maria')
+fila.insere(e1)
+fila.print()
+e2=No(-1,'Ana')
+fila.insere(e2)
+fila.print()
+e3=No(2,'Arthur')
+fila.insere(e3)
+fila.print()
+k=fila.remove()
+print("No removido: "+k.valor)
+fila.print()

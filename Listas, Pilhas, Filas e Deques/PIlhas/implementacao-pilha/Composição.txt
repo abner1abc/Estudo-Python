@@ -1,0 +1,5 @@
+A pilha pode ser implementada em alocação contígua ou encadeada, como as listas. De fato, a pilha é uma lista especial na qual 
+todos os nós são inseridos e removidos apenas no início da lista.
+
+Para uma alocação encadeada, você só precisa manter um ponteiro para o início (comumente chamado de topo) da pilha. Se a pilha estiver 
+vazia, o TopoPilha apontará para o valor nulo. O código a seguir apresenta a classe Pilha e seu construtor.

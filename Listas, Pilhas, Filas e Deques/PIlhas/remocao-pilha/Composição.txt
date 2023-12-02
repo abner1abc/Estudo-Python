@@ -1,0 +1,17 @@
+A remoção da pilha (comumente chamado de POP) deve ocorrer sempre no topo da pilha.
+
+Para o caso contíguo, você possui 3 variáveis: Pilha guarda o espaço de memória, MaxPilha guarda o número máximo de elementos na pilha, 
+TopoPilha guarda o índice do topo da pilha.
+
+Para testar as funções pode-se usar : 
+
+print(pilha)
+for i in range(10):
+    		push(i)
+    		print(pilha)
+print(push(11))
+for i in range(10):
+    		print(pop())
+print(pop())
+
+(função com erros de identação pois o mesmo foi retirado de outra plataforma de edição. correção básica necessária)

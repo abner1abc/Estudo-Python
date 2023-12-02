@@ -1,0 +1,4 @@
+A inserção na pilha deve ocorrer sempre no topo da pilha. Essa operação é comumente chamada de PUSH.
+
+Para o caso contíguo, você possui 3 variáveis: Pilha guarda o espaço de memória, MaxPilha guarda o número máximo de elementos na pilha, 
+TopoPilha guarda o índice do topo da pilha.
