@@ -1,0 +1,8 @@
+A ideia da lista circular é permitir a representação de uma lista de dados cíclica, como um loop sem fim. Para isso, você precisa fazer 
+com que o último nó seja seguido pelo primeiro, fechando o laço eterno.
+
+No caso encadeado, isso pode ser facilmente resolvido apontando o ponteiro próximo do último nó para o primeiro nó, ao invés de apontar 
+para nulo. Se sua lista for duplamente encadeada, você também precisa apontar o ponteiro anterior do primeiro nó para o último.
+
+Entretanto, é importante continuar mantendo duas variáveis, uma apontando para o “início” da lista, e outra, para o “final“ da fila. 
+Essas duas variáveis são importantes para você fazer as operações de inserção e remoção da lista.
