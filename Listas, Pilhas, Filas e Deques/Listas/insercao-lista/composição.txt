@@ -1,1 +1,6 @@
-any for now...
+A inserção em lista circular funciona exatamente como na lista linear, com a única diferença que se você inserir após o 
+“final” da lista, você deve atualizar a variável que aponta para o final da lista. No caso de ser encadeada, também precisará 
+atualizar os ponteiros associados.
+
+Se a lista for ordenada, você deve realizar a busca pelo local de inserção. Tome cuidado apenas quando a inserção for antes do primeiro nó, 
+para atualizar o ponteiro de início da lista e apontar o último nó para o novo nó inicial.

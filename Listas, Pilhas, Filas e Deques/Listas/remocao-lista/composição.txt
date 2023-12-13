@@ -1,1 +1,2 @@
-any for now...
+A remoção em lista circular funciona de forma semelhante à lista linear, precisando apenas atualizar os ponteiros de início e final da 
+lista, caso um dos extremos seja removido.
