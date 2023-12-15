@@ -1,0 +1,7 @@
+O processo de remover o nó de uma árvore binária deve obedecer a algumas regras.
+
+1.O nó a ser deletado é uma folha: a remoção é simples. Basta buscar pelo nó e removê-lo.
+
+2.O nó a ser excluído tem apenas um filho: copie o filho para o nó e o exclua.
+
+3.O nó a ser excluído tem dois filhos: encontre o sucessor em ordem do nó. Copie o conteúdo do sucessor em ordem para o nó e o exclua.

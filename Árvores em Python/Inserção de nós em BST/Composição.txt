@@ -1,0 +1,6 @@
+A inserção de uma nova chave em uma árvore binária de busca ocorre sempre em um novo nó, posicionado como uma nova folha da árvore. 
+Isso decorre do fato de que a posição do nó que contém a nova chave é determinada pela sua busca na árvore.
+
+Já vimos que estruturas de dados, nas quais realizamos busca, inserção e remoção, não permitem chave duplicada. 
+Assim, a busca pela chave que desejamos inserir na árvore deverá, obrigatoriamente, falhar e retornar como resultado o 
+nó que será pai do novo nó inserido na árvore.
