@@ -1,0 +1,8 @@
+ Algoritmo de percurso pré-ordem.
+ Primeiro, apresentaremos um pseudocódigo que utiliza estratégia recursiva.
+
+ Em Python, também implementamos o algoritmo de pré-ordem utilizando a estratégia recursiva.
+
+ Para realizar o percurso em pré-ordem, são necessários três acessos ao nó. No caso da pré-ordem, no primeiro, executamos a visita; no segundo, 
+ chamamos recursivamente o algoritmo para a subárvore esquerda e, no terceiro, ocorre a chamada do percurso em pré-ordem do ramo direito. 
+ Assim, a complexidade computacional do percurso em pré-ordem é O(n).
