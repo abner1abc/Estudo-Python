@@ -1,0 +1,16 @@
+Algoritmo de percurso pós-ordem
+
+Finalmente, temos o algoritmo para o percurso em pós-ordem (algoritmo 10), que é resultado direto da definição, como o da pré-ordem e o da ordem simétrica.
+
+função pos-ordem (registro no *p)
+inicio
+  se (p->dir != NULO)
+      pos-ordem (p->dir);
+  se (p->esq != NULO)
+      pos-ordem (p->esq);
+  visita (p);
+fim
+
+Em Python, também implementamos o pseudocódigo utilizando a estratégia recursiva.
+
+A análise da complexidade é totalmente análoga à análise feita para pré-ordem e ordem simétrica, o que faz com que o algoritmo tenha complexidade O(n).

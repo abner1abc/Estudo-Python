@@ -3,6 +3,15 @@
 
  Em Python, também implementamos o algoritmo de pré-ordem utilizando a estratégia recursiva.
 
+ função pre-ordem (registro no *p)
+inicio
+  visita (p);
+  se (p->dir != NULO)
+      pre-ordem (p->dir);
+  se (p->esq != NULO)
+      pre-ordem (p->esq);
+fim
+
  Para realizar o percurso em pré-ordem, são necessários três acessos ao nó. No caso da pré-ordem, no primeiro, executamos a visita; no segundo, 
  chamamos recursivamente o algoritmo para a subárvore esquerda e, no terceiro, ocorre a chamada do percurso em pré-ordem do ramo direito. 
  Assim, a complexidade computacional do percurso em pré-ordem é O(n).

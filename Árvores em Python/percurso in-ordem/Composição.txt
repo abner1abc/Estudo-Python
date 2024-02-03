@@ -1,0 +1,18 @@
+Algoritmo de percurso em ordem
+
+O algoritmo do percurso em ordem simétrica é semelhante ao pré-ordem. Modificamos somente o momento da visita, resultando no pseudocódigo 2, que utiliza a seguinte estratégia 
+recursiva:
+
+função simetrica (registro no *p)
+inicio
+  se (p->dir != NULO)
+      simetrica (p->dir);
+  visita (p);
+  se (p->esq != NULO)
+      simetrica (p->esq);
+fim
+
+Em Python, também implementamos o pseudocódigo utilizando a estratégia recursiva.
+
+A análise de complexidade é análoga à realizada no algoritmo do percurso em pré-ordem. Observe que a única diferença é a ordem das visitas. 
+Sendo assim, a complexidade computacional do algoritmo para percurso em ordem simétrica é O(n).
