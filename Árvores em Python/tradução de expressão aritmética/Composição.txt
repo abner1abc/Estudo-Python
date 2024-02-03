@@ -1,0 +1,49 @@
+Uma árvore é uma forma natural para representar a estrutura de uma expressão aritmética. Ao contrário de outras notações, a árvore pode representar a 
+computação de forma não ambígua.
+
+Exemplo
+A expressão infixa 1 + 2 * 3 é ambígua, a menos que saibamos, de forma antecipada, que a multiplicação é feita antes da adição.
+
+Modelando as expressões aritméticas em árvores, um nó de uma árvore representa um operador, um nó que não é folha, enquanto um nó representando um operando é uma folha.
+
+Vamos considerar a expressão A + B * C. Os operadores + e * ainda aparecem entre os operandos, mas há um problema. Sobre quais operando eles estão atuando? Primeiro, 
+aplicamos o + sobre A e B ou o * sobre B e C? A expressão parece ambígua.
+
+Vamos interpretar a expressão A + B * C usando a suas precedências. B e C são multiplicados primeiro, em seguida, A é adicionado ao resultado. (A + B) * C forçaria que a adição de 
+A e B fosse realizada primeiro, antes da multiplicação. Na expressão A + B + C, pela associatividade da precedência, o + à esquerda seria feito primeiro; adicionamos A a B e, 
+em seguida, o resultado a C.
+
+Embora tudo isso possa ser óbvio, lembre-se de que os sistemas computacionais precisam saber exatamente quais operadores executar, e em que ordem. Uma maneira de escrever uma expressão que garanta que não haverá confusão alguma com respeito à ordem em que as operações são executadas é a criação de uma expressão totalmente parentizada.
+
+Esse tipo de expressão usa um par de parênteses para cada operador. Os parênteses ditam a ordem em que as operações são executadas e não há ambiguidade. Também não há necessidade 
+de lembrar de regras de precedência.
+
+- Expressões prefixas, infixas e pós-fixas
+Considere a expressão aritmética infixa A + B. O que acontece se movemos o operador para antes dos dois operandos?
+
+A expressão ficaria + A B. Da mesma forma, poderíamos mover o operador para o fim. Nós obteríamos A B +. Essas expressões parecem estranhas.
+
+A expressão A + B * C + D pode ser reescrita como ((A + (B * C)) + D), para mostrar que a multiplicação acontece primeiro, seguida da adição, mais à esquerda. A + B + C + D pode 
+ser escrito como (((A + B) + C) + D), já que operações de adição são associadas da esquerda para a direita.
+
+Essas mudanças na posição do operador em relação aos operandos criam dois formatos de expressão:
+
+.Prefixa
+Requer que todos os operadores precedam os dois operandos sobre os quais atuam.
+
+.Pós-fixa
+Requer que seus operadores venham depois dos operandos correspondentes.
+
+Algoritmos de percursos prefixos, infixos e pós-fixos
+Seguem exatamente a mesma filosofia aplicada aos algoritmos de percursos em árvores de busca, ou seja:
+
+.Se a árvore for lida em ordem raiz-esquerda-direita-raiz, teremos a expressão aritmética em notação prefixa.
+
+.Se a árvore for lida em ordem esquerda-raiz-direita, teremos a expressão aritmética em notação infixa.
+
+.Se a árvore for lida em ordem esquerda-direita-raiz, teremos a expressão aritmética em notação pós-fixa.
+
+Será considerado algoritmos prontos avaliados dentro de um outro arquivo, considerando que as expressões aritméticas estão modeladas em uma árvore binária, a raiz contém o 
+topo da árvore, esquerda e direita são os filhos de um nó.
+
+E Também será feito implementação dos mesmos como exemplos.
