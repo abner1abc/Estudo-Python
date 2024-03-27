@@ -36,8 +36,4 @@ def extrair_variaveis(dicionario):
         if idx > 50:
              break
 
-print('Total de variáveis:', len(variaveis))
-for variavel in variaveis:
-    print(variavel)
-    for categ in variavel.categoria:
-        print('\t', categ)
+             return variaveis
