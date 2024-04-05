@@ -1,0 +1,38 @@
+Outra atividade muito comum na manipulação de arquivos é a contagem do número de vezes que determinada palavra aparece. 
+O Python disponibiliza o método count para strings, que recebe como parâmetro a palavra que desejamos contar e retorna o total de ocorrências dela. 
+
+contagem = variavel_string.count(palavra)
+
+Para contornar esse problema, podemos “quebrar” uma frase em palavras e depois verificar se cada palavra é igual à string que buscamos.
+
+Isso nos leva a outro método muito utilizado em processamento de textos, o método split(), que é usado para quebrar uma string em partes menores, 
+retornando uma lista com essas partes. Sua sintaxe é a seguinte:
+
+lista_termos = variavel_string.split(separador)
+
+Agora que sabemos como funciona o método split, no próximo exemplo, vamos utilizar esse método para realizar a contagem da palavra “amo” na frase do exemplo anterior: 
+“Eu amo comer amoras no café da manhã.”. Vamos aproveitar para comparar os resultados obtidos pelos métodos count e split.
+
+**
+script17
+
+No script17.py, para realizar a contagem da palavra “amo” na frase “Eu amo comer amoras no café da manhã”, foi criada uma lista chamada lista_termos, 
+através do uso do método split sobre a variável que continha a frase mencionada. Também foi criado um contador e houve uma iteração sobre lista_termos, 
+realizando comparações entre os elementos desta e a palavra “amo”.
+
+Será que não haveria uma maneira de realizar essa contagem de outra maneira, fazendo uso dos métodos de manipulação de strings apresentados até aqui?
+
+Desenvolva outra solução para o problema da contagem da palavra “amo” na frase “Eu amo comer amoras no café da manhã.”
+
+Ex:
+
+**
+frase = "Eu amo comer amoras no café da manhã."
+lista_termos = frase.split()
+
+**
+frase = "Eu amo comer amoras no café da manhã."
+lista_termos = frase.split()
+contagem = lista_termos.count("amo")
+print("Contagem = ", contagem)
+
