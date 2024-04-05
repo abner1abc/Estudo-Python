@@ -1,0 +1,5 @@
+O objetivo principal da criação das f-strings foi facilitar a formatação de strings.
+
+Para definimos uma variável f-string, precisamos incluir, antes das aspas que definem uma string, a letra f (ou F), por exemplo:
+
+minha_string = f”Olá Mundo {expr}”
