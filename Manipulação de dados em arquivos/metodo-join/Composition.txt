@@ -1,0 +1,9 @@
+Assim como há a necessidade de quebrar uma frase em uma lista de palavras, podem existir situações em que ocorra o inverso, ou seja, 
+temos uma lista de palavras ou frases e desejamos concatená-las em uma única string.
+
+Para essa operação, utilizamos o método join do tipo str, que retorna uma única string com todos os elementos da lista concatenados, 
+utilizando determinado conector. Sua sintaxe é a seguinte:
+
+string_final = “conector”.join(iteravel)
+
+Em que “conector” é a string que será utilizada entre os elementos da lista que serão concatenados (ex. ', ') e iteravel é um iterável, como uma lista ou tupla.
