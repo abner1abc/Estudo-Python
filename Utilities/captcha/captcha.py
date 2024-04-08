@@ -4,7 +4,7 @@ from captcha.image import ImageCaptcha
 image = ImageCaptcha(width=280, height=90)
 
 # texto escolhido para o captcha 
-captcha_text = 'PycodeBR'
+captcha_text = 'RemaldinDaklNaip'
 
 # Gera a imagem do captcha
 data = image.generate(captcha_text)
