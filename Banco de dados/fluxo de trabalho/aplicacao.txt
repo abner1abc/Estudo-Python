@@ -1,0 +1,12 @@
+.Criar uma conexão com o banco de dados utilizando a função connect.
+
+.Utilizar a conexão para criar um cursor, que será utilizado para enviar comandos ao banco de dados.
+
+.Utilizar o cursor para enviar comandos ao banco de dados, por exemplo: 
+a. Criar tabelas
+b. Inserir linhas
+c. Selecionar linhas
+
+.Efetivar as mudanças no banco de dados utilizando o método commit da conexão.
+
+.Fechar o cursor e a conexão.
