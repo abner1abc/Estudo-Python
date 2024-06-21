@@ -1,0 +1,36 @@
+- DEFINIÇÃO DO PROBLEMA
+
+Calcular a taxa de incidência anual de dengue para os municípios do estado do rio de janeiro para os anos de 2018 e 2019
+
+	Taxa de incidência: 
+		número de novos casos
+	número de pessoas em risco
+
+incidência Município A 2018 : Casos de dengue do Município A em 2018
+						População do Município A em 2018
+
+- ETAPAS PARA SOLUÇÃO DO PROBLEMA
+
+1. Criar um banco de dados para armazenar as informações sobre casos de dengue e população
+
+2. Criar o Modelo ER e as tabelas
+
+3. Povoar o banco de dados a partir de planilhas contendo casos de dengue e população
+
+4. Consultar o banco de dados e obter as taxas de incidência
+
+- FONTES DAS INFORMAÇÕES
+
+.Casos de dengue : Datasus 
+http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sinannet/cnv/denguerj.def
+
+.População : IBGE 
+https://www.ibge.gov.br/estatisticas/sociais/populacao/9103-estimativas-de-populacao.html?edicao=17283&t=downloads
+
+
+
+
+
+
+
+
