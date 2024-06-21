@@ -1,13 +1,13 @@
 - DEFINIÇÃO DO PROBLEMA
 
-Calcular a taxa de incidência anual de dengue para os municípios do estado do rio de janeiro para os anos de 2018 e 2019
+Calcular a taxa de incidência anual de dengue para os municípios do estado do rio de janeiro para os anos de 2012 e 2013
 
 	Taxa de incidência: 
 		número de novos casos
 	número de pessoas em risco
 
-incidência Município A 2018 : Casos de dengue do Município A em 2018
-						População do Município A em 2018
+incidência Município A 2018 : Casos de dengue do Município A em 2013
+						População do Município A em 2013
 
 - ETAPAS PARA SOLUÇÃO DO PROBLEMA
 
